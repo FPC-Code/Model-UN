@@ -1,0 +1,37 @@
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 10vh;
+	background-color: #3181b8;
+	width: 100%;
+	overflow: hidden;
+}
+
+.logo img {
+	width: 20vw;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+}
+
+.nav-links li {
+	list-style: none;
+	font-family: "Comfortaa", sans-serif;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: white;
+	letter-spacing: 3px;
+	font-weight: normal;
+	font-size: 14px;
+	transition: 0.25s;
+}
+
+.nav-links a:hover {
+	color: darkgray;
+}
