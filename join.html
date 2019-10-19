@@ -40,6 +40,70 @@
 				</ul>
 			</nav>
 		</div>
-		<div class="main"></div>
+		<div class="main">
+			<form action="./Includes/PHP/join.php" method="post" id="join">
+				<ul>
+					<li>
+						<input
+							type="text"
+							name="name"
+							placeholder="John Smith"
+						/>
+					</li>
+					<li>
+						<input
+							type="email"
+							name="email"
+							placeholder="john.smith@example.com"
+						/>
+					</li>
+					<li>
+						<table>
+							<tr>
+								<td>9th, Freshman</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="9th, Freshman"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>10th, Sophomore</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="10th, Sophomore"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>11th, Junior</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="11th, Junior"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>12th, Senior</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="12th, Senior"
+									/>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li><input type="submit" value="Join" /></li>
+				</ul>
+			</form>
+		</div>
 	</body>
 </html>
