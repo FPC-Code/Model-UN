@@ -40,6 +40,149 @@
 				</ul>
 			</nav>
 		</div>
-		<div class="main"></div>
+		<div class="main">
+			<form
+				action="./Includes/PHP/conference-signin.php"
+				method="post"
+				id="conference-signin"
+			>
+				<ul>
+					<li>
+						<input
+							type="text"
+							name="name"
+							placeholder="John Smith"
+						/>
+					</li>
+					<li>
+						<input
+							type="email"
+							name="email"
+							placeholder="john.smith@example.com"
+						/>
+					</li>
+					<li>
+						<input
+							type="text"
+							name="country"
+							id="country"
+							placeholder="United States"
+						/>
+					</li>
+					<li>
+						<table>
+							<tr>
+								<td>9th, Freshman</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="9th, Freshman"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>10th, Sophomore</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="10th, Sophomore"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>11th, Junior</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="11th, Junior"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>12th, Senior</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="12th, Senior"
+									/>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li><input type="submit" value="Sign-In" /></li>
+				</ul>
+			</form>
+			<form
+				action="./Includes/PHP/conference-signup.php"
+				method="post"
+				id="conference-signup"
+			>
+				<ul>
+					<li>
+						<input
+							type="text"
+							name="name"
+							placeholder="John Smith"
+						/>
+					</li>
+					<li>
+						<input
+							type="email"
+							name="email"
+							placeholder="john.smith@example.com"
+						/>
+					</li>
+					<li>
+						<table>
+							<tr>
+								<td>9th, Freshman</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="9th, Freshman"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>10th, Sophomore</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="10th, Sophomore"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>11th, Junior</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="11th, Junior"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>12th, Senior</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="12th, Senior"
+									/>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li><input type="submit" value="Sign-Up" /></li>
+				</ul>
+			</form>
+		</div>
 	</body>
 </html>
