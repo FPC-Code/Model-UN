@@ -4,10 +4,21 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<<<<<<< HEAD:conferences/index.html
 		<title>FPC Model UN - Conferences</title>
 		<link rel="shortcut icon" type="image/x-icon" href="/Images/FPC MUN Logo.jpg" />
 		<link rel="stylesheet" href="/Includes/CSS/main.css" />
 		<link rel="stylesheet" href="/Includes/CSS/menu.css" />
+=======
+		<link
+			rel="shortcut icon"
+			type="image/x-icon"
+			href="./Images/FPC MUN Logo.jpg"
+		/>
+		<link rel="stylesheet" href="./Includes/CSS/main.css" />
+		<link rel="stylesheet" href="./Includes/CSS/menu.css" />
+		<title>FPC Model UN - Conferences</title>
+>>>>>>> afa9aa6bfe4f49cf8f994507e73c7ecf98a77f83:conferences.html
 		<!-- keep this title convention please-->
 
 		<link
@@ -20,6 +31,7 @@
 		<div class="menu">
 			<nav>
 				<div class="logo">
+<<<<<<< HEAD:conferences/index.html
 					<a href="/"><img src="/Images/FPC MUN Logo.jpg" alt=""/></a>
 				</div>
 
@@ -28,8 +40,167 @@
 					<li><a href="/conferences/">Conferences</a></li>
 					<li><a href="/meetings/">Meetings</a></li>
 					<li><a href="/join/">Join</a></li>
+=======
+					<a href="./"
+						><img
+							src="./Images/FPC MUN Logo.jpg"
+							alt="Model UN Logo"
+					/></a>
+				</div>
+
+				<ul class="nav-links">
+					<li><a href="./">Home</a></li>
+					<li><a href="./conferences.html">Conferences</a></li>
+					<li><a href="./meetings.html">Meetings</a></li>
+					<li><a href="./join.html">Join</a></li>
+					<li><a href="./sign-in.html">Sign-In</a></li>
+>>>>>>> afa9aa6bfe4f49cf8f994507e73c7ecf98a77f83:conferences.html
 				</ul>
 			</nav>
+		</div>
+		<div class="main">
+			<form
+				action="./Includes/PHP/conference-signin.php"
+				method="post"
+				id="conference-signin"
+			>
+				<ul>
+					<li>
+						<input
+							type="text"
+							name="name"
+							placeholder="John Smith"
+						/>
+					</li>
+					<li>
+						<input
+							type="email"
+							name="email"
+							placeholder="john.smith@example.com"
+						/>
+					</li>
+					<li>
+						<input
+							type="text"
+							name="country"
+							id="country"
+							placeholder="United States"
+						/>
+					</li>
+					<li>
+						<table>
+							<tr>
+								<td>9th, Freshman</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="9th, Freshman"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>10th, Sophomore</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="10th, Sophomore"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>11th, Junior</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="11th, Junior"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>12th, Senior</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="12th, Senior"
+									/>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li><input type="submit" value="Sign-In" /></li>
+				</ul>
+			</form>
+			<form
+				action="./Includes/PHP/conference-signup.php"
+				method="post"
+				id="conference-signup"
+			>
+				<ul>
+					<li>
+						<input
+							type="text"
+							name="name"
+							placeholder="John Smith"
+						/>
+					</li>
+					<li>
+						<input
+							type="email"
+							name="email"
+							placeholder="john.smith@example.com"
+						/>
+					</li>
+					<li>
+						<table>
+							<tr>
+								<td>9th, Freshman</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="9th, Freshman"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>10th, Sophomore</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="10th, Sophomore"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>11th, Junior</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="11th, Junior"
+									/>
+								</td>
+							</tr>
+							<tr>
+								<td>12th, Senior</td>
+								<td>
+									<input
+										type="radio"
+										name="grade"
+										value="12th, Senior"
+									/>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li><input type="submit" value="Sign-Up" /></li>
+				</ul>
+			</form>
 		</div>
 	</body>
 </html>
