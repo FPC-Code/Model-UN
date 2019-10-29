@@ -10,6 +10,7 @@
 
 		<link rel="stylesheet" href="/Includes/CSS/main.css" />
 		<link rel="stylesheet" href="/Includes/CSS/menu.css" />
+		<link rel="stylesheet" href="/Includes/CSS/form.css" />
 
 		<link
 			href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap"
@@ -18,22 +19,45 @@
 	</head>
 
 	<body>
-		<div class="menu">
-			<nav>
-				<div class="logo">
-					<a href="/"><img src="/Images/FPC MUN Logo.jpg" alt="Model UN Logo"/></a>
-				</div>
+		<header>
+			<div class="logo-container">
+				<a href="/">
+					<img src="/Images/FPC MUN Logo.jpg" alt="FPC Code Logo" />
+					<h4 class="logo">FPC Code</h4>
+				</a>
+			</div>
 
+			<nav>
 				<ul class="nav-links">
-					<li><a href="/">Home</a></li>
-					<li><a href="/conferences/">Conferences</a></li>
-					<li><a href="/meetings/">Meetings</a></li>
-					<li><a href="/join/">Join</a></li>
-					<li><a href="/sign-in/">Sign-In</a></li>
+					<li>
+						<a class="nav-link" id="home" href="/">Home</a>
+					</li>
+					<li>
+						<a class="nav-link" id="about" href="/meetings/">Meetings</a>
+					</li>
+					<li>
+						<a class="nav-link" id="officers" href="/conferences/">Conferences</a>
+					</li>
 				</ul>
+
+				<div class="burger">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				</div>
 			</nav>
-		</div>
-		<div class="main">
+
+			<ul class="buttons">
+				<li>
+					<input type="button" onclick="redirect('/join/')" value="Join" />
+				</li>
+				<li>
+					<input type="button" onclick="redirect('/sign-in/')" value="Sign In" />
+				</li>
+			</ul>
+		</header>
+
+		<main>
 			<form action="./Includes/PHP/join.php" method="post" id="join">
 				<ul>
 					<li>
@@ -73,6 +97,9 @@
 					<li><input type="submit" value="Join" /></li>
 				</ul>
 			</form>
-		</div>
+		</main>
+
+		<script src="/Includes/JS/main.js"></script>
+		<script src="/Includes/JS/menu.js"></script>
 	</body>
 </html>
