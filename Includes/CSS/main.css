@@ -3,14 +3,28 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
+/*
+#e8eded general white (background and text)
 
+#88aeda very light blue (heading 2)
+#3181b8 slightly darker and more blue version of ^ (header/buttons)
+#12344b dark blue (heading 1)
+#1b3156 very dark blue w/ purple (text boxes?)
+
+#7277a6 light purple
+#1d223d very dark purple
+
+#71adc5 light turquoise
+#5776af meduim turquoise
+
+*/
 html,
 body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	letter-spacing: 0px;
-	color: #e0f4e2;
-	background: #e0f4e2;
+	color: #e8eded;
+	background: #e8eded;
 	height: 100%;
 	width: 100%;
 	font-size: 0px;
@@ -25,17 +39,17 @@ main {
 /* Button styles */
 input[type="button"] {
 	background-color: #3181b8;
-	border: solid 2.5px #e0f4e2;
+	border: solid 2.5px #e8eded;
 	text-align: center;
 	transition: 0.25s;
 	cursor: pointer;
-	color: #e0f4e2;
+	color: #e8eded;
 	margin: 0;
 	padding: 0;
 }
 
 input[type="button"]:hover {
-	background-color: #e0f4e2;
+	background-color: #e8eded;
 	color: #3181b8;
 }
 .text {
@@ -43,7 +57,9 @@ input[type="button"]:hover {
 }
 
 .text ul {
-	background-color: rgb(18, 68, 75);
+	/*background-color: rgb(18, 68, 75);*/
+	background-color: #5776af;
+
 	max-width: 600px;
 	padding: 0;
 	padding-top: 25px;
@@ -63,7 +79,7 @@ input[type="button"]:hover {
 }
 
 .text p {
-	color: #f0f1eb;
+	color: #e8eded;
 	text-align: center;
 	padding: 0;
 	margin: 1.25vw;
@@ -76,7 +92,7 @@ input[type="button"]:hover {
 
 .text a {
 	text-decoration: none;
-	color: #f0f1eb;
+	color: #e8eded;
 	background-color: #6e7869;
 	padding: 5px;
 	border-radius: 2.5px;
@@ -88,8 +104,8 @@ input[type="button"]:hover {
 h1 {
 	font-size: 56px;
 	font-weight: bold;
-	background-color: rgb(18, 52, 75);
-	color: #f0f1eb;
+	background-color: #12344b;
+	color: #e8eded;
 	padding: 25px 25px;
 	margin: 0;
 
@@ -97,12 +113,21 @@ h1 {
 }
 
 h2 {
-	background-color: #779869;
-	color: #f0f1eb;
+	background-color: #1b3156;
+	color: #e8eded;
 	width: 100%;
 	text-align: center;
 	padding: 20px 50px;
 	font-size: 46px;
 	margin-top: 0px;
 	margin-bottom: 50px;
+}
+.link input[type="button"] {
+	font-family: HindLight, sans-serif;
+	line-height: 37.5px;
+	height: 50px;
+	width: 100px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-weight: normal;
 }
