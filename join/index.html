@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="/Includes/CSS/main.css" />
 		<link rel="stylesheet" href="/Includes/CSS/menu.css" />
 		<link rel="stylesheet" href="/Includes/CSS/footer.css" />
+		<link rel="stylesheet" href="/Includes/CSS/form.css" />
 		<link
 			href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap"
 			rel="stylesheet"
@@ -27,7 +28,7 @@
 				<a href="/">
 					<img
 						src="/Images/Assets/FPC MUN Logo.jpg"
-						alt="FPC Code Logo"
+						alt="FPC MUN Logo"
 					/>
 					<h4 class="logo">FPC MUN</h4>
 				</a>
@@ -76,62 +77,120 @@
 		</header>
 
 		<main>
-			<h1>We are Model United Nations</h1>
+			<h1>Join The Model United Nations</h1>
 			<section id="basic-description">
 				<div class="text">
-					<h2>What does that mean?</h2>
+					<h2>What does this entail?</h2>
 					<ul>
 						<li>
 							<p>
-								Model UN is a simulation of the UN General
-								Assembly or other multilateral body. We attend
-								conferences where we serve as ambassadors to
-								address real-world issues by working with other
-								delegates.
+								This means that you want to attend
+								<a href="../conferences/index.html"
+									>confrences</a
+								>
+								as a delegate.
 							</p>
 
 							<p>
-								This is a place to strengthen your voice in
-								public speaking while learning about the world,
-								all while making great friends in a quirky
-								environment!
+								This means you should attend
+								<a href="../meetings/index.html">meetings</a>,
+								so you can learn what to do as a delegate!
 							</p>
-							<!--An authentic simulation of the UN General Assembly, UN Security Council, 
-or other multilateral body. Delegates attend conferences where they serve as ambassadors to address real-world issues by drafting resolutions and working with fellow delegates to solve international crises concerning human rights, peace and security, the environment, economic development and other global concerns.
-This is a place to strengthen your voice in public speaking while learning about the world, all while making great friends in a quirky environment! To join, stop by any of the meetings or Ms. Elledge’s classroom, visit the website, or email us!
-Sponsor: Allison Elledge
-President: Nicholas Anane
-Twitter: @fpcmodelun
--->
 						</li>
 					</ul>
 				</div>
 			</section>
-			<section id="join-today">
-				<h2>Join Today</h2>
+			<section id="join-form">
+				<div class="form-title">
+					<h2>Join Form</h2>
 
-				<div class="text">
-					<ul>
-						<li>
-							<p>
-								Before you can attend meetings, you need to fill
-								out a form to let us know a little bit about
-								yourself.
-							</p>
+					<!-- <p>
+					Fill out the form below to be able to show up to the next meeting.
+				</p> -->
+					<div class="text">
+						<ul>
+							<li>
+								<p>
+									<strong
+										>Note: Form currently under maintenance.
+										WILL NOT WORK</strong
+									>
+								</p>
+							</li>
+							<li>
+								<p>
+									Before you can attend meetings, you need to
+									fill out a form to let us know a little bit
+									about yourself.
+								</p>
+							</li>
+						</ul>
+					</div>
+					<p>
+						<strong
+							>Note: Form currently under maintenance. WILL NOT
+							WORK</strong
+						>
+					</p>
+				</div>
 
-							<p>
-								Click the button below to go there.
-							</p>
+				<div class="form">
+					<form method="POST" action="/Includes/PHP/join.php">
+						<input
+							type="hidden"
+							name="subject"
+							value="New Member"
+						/>
 
-							<div class="link">
-								<input
-									type="button"
-									onclick="redirect('/join/')"
-									value="Join"
-								/>
-							</div>
-						</li>
-					</ul>
+						<label class="form-header" for="fname">Full Name</label
+						><br /><br />
+						<input
+							type="text"
+							name="name"
+							placeholder="What's your full name?"
+						/>
+
+						<label class="form-header" for="email"
+							>School Email</label
+						><br /><br />
+						<input
+							type="email"
+							name="email"
+							placeholder="What's your school email?"
+						/>
+
+						<label class="form-header" for="grade"
+							>Current Grade</label
+						>
+
+						<div class="radio-buttons">
+							<label class="container"
+								>9th (Freshman)
+								<input type="radio" name="radio" value="9" />
+								<span class="checkmark"></span>
+							</label>
+
+							<label class="container"
+								>10th (Sophmore)
+								<input type="radio" name="radio" value="10" />
+								<span class="checkmark"></span>
+							</label>
+
+							<label class="container"
+								>11th (Junior)
+								<input type="radio" name="radio" value="11" />
+								<span class="checkmark"></span>
+							</label>
+
+							<label class="container"
+								>12th (Senior)
+								<input type="radio" name="radio" value="12" />
+								<span class="checkmark"></span>
+							</label>
+						</div>
+
+						<input type="submit" name="submit" value="Submit" />
+					</form>
 				</div>
 			</section>
 		</main>

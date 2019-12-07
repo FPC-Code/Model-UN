@@ -2,40 +2,25 @@
 .form {
 	width: 600px;
 	max-width: 750px;
-	background-color: #184773;
+	background-color: #5776af;
 	margin: auto;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	text-align: center;
-	padding: 0 25px;
-	padding-bottom: 250px;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	padding: 5%;
+	padding-bottom: 5%;
+	border-radius: 5px;
 	transition: 0.25s;
+	font-size: 30px;
 }
 
 /* Text for form */
 .form-header {
-	background-color: #184773;
-	color: #f0f1eb;
-	margin-bottom: 0px;
-}
-
-.form-header h2 {
-	font-size: 34px;
-	padding-bottom: 0px;
-	margin-bottom: 25px;
-}
-
-.form h3 {
-	color: #f0f1eb;
-	font-size: 30px;
-	padding-top: 50px;
-	padding-bottom: 10px;
+	color: #e8eded;
 }
 
 .form p {
-	color: #f0f1eb;
+	color: #e8eded;
 	font-size: 16px;
 	padding-bottom: 0px;
 	padding-top: 10px;
@@ -43,7 +28,7 @@
 }
 
 .form-header p {
-	color: #f0f1eb;
+	color: #e8eded;
 	font-style: italic;
 	font-size: 18px;
 	padding-bottom: 15px;
@@ -59,7 +44,7 @@ input[type="text"] {
 	border-width: 0px;
 	border-radius: 5px;
 	color: #184773;
-	background-color: #f0f1eb;
+	background-color: #e8eded;
 	border-color: #212922;
 	border-style: solid;
 	font-size: 18pt;
@@ -75,7 +60,7 @@ input[type="email"] {
 	border-width: 0px;
 	border-radius: 5px;
 	color: #184773;
-	background-color: #f0f1eb;
+	background-color: #e8eded;
 	border-color: #212922;
 	border-style: solid;
 	font-size: 18pt;
@@ -91,7 +76,7 @@ input[type="submit"] {
 	height: 50px;
 	border-width: 0px;
 	border-radius: 5px;
-	color: #f0f1eb;
+	color: #e8eded;
 	background-color: #184773;
 	border-color: #212922;
 	border-style: solid;
@@ -123,7 +108,7 @@ input[type="submit"]:hover {
 	-ms-user-select: none;
 	user-select: none;
 	text-align: center;
-	color: #f0f1eb;
+	color: #e8eded;
 }
 
 /* Hide default radio buttons */
@@ -142,7 +127,7 @@ input[type="submit"]:hover {
 	top: 0;
 	height: 25px;
 	width: 25px;
-	background-color: #f0f1eb;
+	background-color: #e8eded;
 	border-radius: 50%;
 }
 
@@ -177,7 +162,7 @@ input[type="submit"]:hover {
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background: #f0f1eb;
+	background: #e8eded;
 }
 
 /* Resize when window size is small */
