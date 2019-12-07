@@ -123,11 +123,18 @@ h2 {
 	margin-bottom: 50px;
 }
 .link input[type="button"] {
-	font-family: HindLight, sans-serif;
-	line-height: 37.5px;
-	height: 50px;
-	width: 100px;
-	font-size: 20px;
-	border-radius: 5px;
-	font-weight: normal;
+	background-color: #3181b8;
+	border: solid 2.5px #e8eded;
+	text-align: center;
+	transition: 0.25s;
+	cursor: pointer;
+	color: #e8eded;
+	margin: 0;
+	padding: 0;
+	font-size: 24pt;
+}
+
+.link input[type="button"]:hover {
+	background-color: #e8eded;
+	color: #3181b8;
 }
