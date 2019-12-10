@@ -17,11 +17,19 @@
 #71adc5 light turquoise
 #5776af meduim turquoise (text boxes)
 
+
+add some greens?? 
+#e8eded general white (background and text)
+#3661E5 royal blue
+#55828B steel teal
+#7DCE82 pastel green (heading 1)
+#14BDEB really light blue (header/buttons)
+#5D9B41 darker green, "palm leaf"
 */
 html,
 body {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-		"Open Sans", "Helvetica Neue", sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	letter-spacing: 0px;
 	color: #e8eded;
 	background: #e8eded;
@@ -38,7 +46,7 @@ main {
 
 /* Button styles */
 input[type="button"] {
-	background-color: #3181b8;
+	background-color: #14bdeb;
 	border: solid 2.5px #e8eded;
 	text-align: center;
 	transition: 0.25s;
@@ -50,7 +58,7 @@ input[type="button"] {
 
 input[type="button"]:hover {
 	background-color: #e8eded;
-	color: #3181b8;
+	color: #14bdeb;
 }
 .text {
 	padding-top: 5%;
@@ -94,6 +102,7 @@ input[type="button"]:hover {
 	text-decoration: none;
 	color: #e8eded;
 	background-color: #71adc5;
+
 	padding: 5px;
 	border-radius: 2.5px;
 	font-style: italic;
@@ -104,7 +113,7 @@ input[type="button"]:hover {
 h1 {
 	font-size: 56px;
 	font-weight: bold;
-	background-color: #12344b;
+	background-color: #7dce82;
 	color: #e8eded;
 	padding: 25px 25px;
 	margin: 0;
@@ -123,7 +132,7 @@ h2 {
 	margin-bottom: 50px;
 }
 .link input[type="button"] {
-	background-color: #3181b8;
+	background-color: #14bdeb;
 	border: solid 2.5px #e8eded;
 	text-align: center;
 	transition: 0.25s;
@@ -136,5 +145,5 @@ h2 {
 
 .link input[type="button"]:hover {
 	background-color: #e8eded;
-	color: #3181b8;
+	color: #14bdeb;
 }

@@ -76,7 +76,7 @@ input[type="submit"] {
 	font-size: 20pt;
 	border-width: 0px;
 	border-radius: 5px;
-	background-color: #3181b8;
+	background-color: #14bdeb;
 	border: solid 2.5px #e8eded;
 	text-align: center;
 	transition: 0.25s;
@@ -88,7 +88,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
 	background-color: #e8eded;
-	color: #3181b8;
+	color: #14bdeb;
 }
 
 /* Sets container for checkmark sections */
