@@ -46,7 +46,7 @@ main {
 
 /* Button styles */
 input[type="button"] {
-	background-color: #14bdeb;
+	background-color: #2c3d2a;
 	border: solid 2.5px #e8eded;
 	text-align: center;
 	transition: 0.25s;
@@ -58,7 +58,7 @@ input[type="button"] {
 
 input[type="button"]:hover {
 	background-color: #e8eded;
-	color: #14bdeb;
+	color: #5d9b41;
 }
 .text {
 	padding-top: 5%;
@@ -67,7 +67,6 @@ input[type="button"]:hover {
 .text ul {
 	/*background-color: rgb(18, 68, 75);*/
 	background-color: #5776af;
-
 	max-width: 600px;
 	padding: 0;
 	padding-top: 25px;
@@ -113,7 +112,7 @@ input[type="button"]:hover {
 h1 {
 	font-size: 56px;
 	font-weight: bold;
-	background-color: #7dce82;
+	background-color: #12344b;
 	color: #e8eded;
 	padding: 25px 25px;
 	margin: 0;
@@ -122,7 +121,7 @@ h1 {
 }
 
 h2 {
-	background-color: #1b3156;
+	background-color: #3661e5;
 	color: #e8eded;
 	width: 100%;
 	text-align: center;
@@ -132,7 +131,7 @@ h2 {
 	margin-bottom: 50px;
 }
 .link input[type="button"] {
-	background-color: #14bdeb;
+	background-color: #2c3d2a;
 	border: solid 2.5px #e8eded;
 	text-align: center;
 	transition: 0.25s;
@@ -145,5 +144,5 @@ h2 {
 
 .link input[type="button"]:hover {
 	background-color: #e8eded;
-	color: #14bdeb;
+	color: #2c3d2a;
 }
